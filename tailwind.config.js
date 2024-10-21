@@ -11,6 +11,15 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        sm: "320px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
+    },
+    corePlugins: {
+      preflight: false, // Si no quieres que Tailwind aplique su reset CSS predeterminado.
     },
   },
   plugins: [],
